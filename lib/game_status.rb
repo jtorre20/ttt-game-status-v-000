@@ -76,6 +76,7 @@ end
 def winner(board)
   #token = board[0] == board[1]
   value = won?(board)
+  binding.pry
   if value
     board[value[0]]
   elsif
