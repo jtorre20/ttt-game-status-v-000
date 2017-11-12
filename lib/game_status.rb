@@ -75,6 +75,7 @@ end
 def winner(board)
   value = board[index]
   if won?(board)
+    return value
   end
 end
 
