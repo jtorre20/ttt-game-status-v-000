@@ -78,7 +78,7 @@ def winner(board)
      if board[0] == X || board[1] == X || board[2] == X
        return "X"
      #elsif board[0] == O
-     
+
      end
 
 end
