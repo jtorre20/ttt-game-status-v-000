@@ -75,7 +75,7 @@ end
 def winner(board)
   #token = board[0] == board[1]
    won?(board).each do |value|
-     value = board[]
+     value = board[0]
      return value
    end #|| board[3]#board[0] == board[1] && board[1] == board[2]
 
