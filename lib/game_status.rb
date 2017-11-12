@@ -75,7 +75,7 @@ end
 def winner(board)
   #token = board[0] == board[1]
   value = won?(board)
-  if value 
+  if value
     board[value[0]]
   elsif
     nil
