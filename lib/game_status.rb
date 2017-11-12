@@ -83,6 +83,8 @@ def winner(board)
 
 end
 
+end
+
 
 
   #elsif won?(board) == true && full?(board) == true #|| full?(board) == false || draw?(board) == true
