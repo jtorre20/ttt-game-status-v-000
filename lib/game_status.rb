@@ -76,11 +76,13 @@ end
 def winner(board)
   #token = board[0] == board[1]
   value = won?(board)
-  binding.pry
+  #binding.pry
   if value
     board[value[0]]
   else
     nil
   end
 
-  end
+
+
+  #http://instruction.learn.co/video_lectures
