@@ -74,7 +74,7 @@ end
 
 def winner(board)
   #token = board[]
-  if won?(board)
+  won?(board)
      #if board[0] == X && board[1] == X && board[2] == X
     return board[0]
   elsif
