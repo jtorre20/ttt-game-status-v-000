@@ -75,7 +75,7 @@ end
 def winner(board)
   #token = board[index]
   if won?(board)
-    return full_board
+    return won?(board)[win_index]
   end
 end
 
