@@ -77,18 +77,4 @@ def winner(board)
   value = won?(board)
      board[value[0]]
 
-    #|| board[3]#board[0] == board[1] && board[1] == board[2]
-
-
-    #return board[1]
-     #elsif board[0] == O
-
-     #end
-
-end
-
-
-
-
-  #elsif won?(board) == true && full?(board) == true #|| full?(board) == false || draw?(board) == true
-    #true
+   end
