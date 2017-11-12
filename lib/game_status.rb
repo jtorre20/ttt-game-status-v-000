@@ -73,10 +73,10 @@ def over?(board)
 end
 
 def winner(board)
-  #token = board[]
+  token = board[0] == board[1]
   won?(board)
-     if board[0] == board[1] && board[1] == board[2]
-    return board[]
+     return token #board[0] == board[1] && board[1] == board[2]
+    
 
     #return board[1]
      #elsif board[0] == O
