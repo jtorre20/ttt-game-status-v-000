@@ -79,7 +79,7 @@ def winner(board)
        return token
      #elsif board[0] == O
 
-     end
+     #end
 
 end
 
