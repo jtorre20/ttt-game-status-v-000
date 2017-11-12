@@ -79,7 +79,7 @@ def winner(board)
   binding.pry
   if value
     board[value[0]]
-  elsif
+  else
     nil
   end
 
