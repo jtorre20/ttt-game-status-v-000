@@ -81,7 +81,7 @@ def winner(board)
     #return board[1]
      #elsif board[0] == O
 
-     #end
+     end
 
 end
 
