@@ -77,6 +77,7 @@ def winner(board)
   if won?(board)
      if board[0, 1, 2] == X
        return "X"
+     end
   end
 end
 
