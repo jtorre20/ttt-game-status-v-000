@@ -76,12 +76,12 @@ def winner(board)
   token = board[0] == board[1]
   won?(board)
      return token #board[0] == board[1] && board[1] == board[2]
-    
+
 
     #return board[1]
      #elsif board[0] == O
 
-     end
+     #end
 
 end
 
