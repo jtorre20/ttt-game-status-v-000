@@ -73,6 +73,7 @@ def over?(board)
 end
 
 def winner(board)
+  value = board[index]
   if won?(board)
   end
 end
