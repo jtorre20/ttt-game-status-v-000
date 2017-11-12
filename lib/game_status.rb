@@ -76,9 +76,9 @@ def winner(board)
   if won?(board)
   end
 end
-end
+
 
 
   #elsif won?(board) == true && full?(board) == true #|| full?(board) == false || draw?(board) == true
     #true
-end
+
