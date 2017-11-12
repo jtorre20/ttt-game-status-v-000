@@ -77,7 +77,7 @@ def winner(board)
   value = won?(board)
   if value == true
     board[value[0]]
-  elsif !board[value[0]]
+  elsif 
     nil
   end
 
