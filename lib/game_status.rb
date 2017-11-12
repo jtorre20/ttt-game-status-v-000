@@ -77,7 +77,7 @@ def winner(board)
   value = won?(board)
      board[value[0]]
 
-     if value == false
+     if won?(board) == false
        return nil
      end
     #|| board[3]#board[0] == board[1] && board[1] == board[2]
